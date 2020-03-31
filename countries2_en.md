@@ -9,7 +9,7 @@ Write a stream pipeline that:
 
 1. Prints each country name in which the first and the last letters are the same ignoring case.
 
-1. Prints the populations of the first ten least populous countries (required intermediate operation: [`stream`](https:docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html#sorted()), [`limit`](https:docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html#limit(long)))).
+1. Prints the populations of the first ten least populous countries (required intermediate operation: [`sorted`](https:docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html#sorted()), [`limit`](https:docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html#limit(long)))).
 
 1. Prints the names of the first ten least populous countries (required intermediate operation: [`sorted`](https:docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html#sorted(java.util.Comparator)), [`limit`](https:docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html#limit(long)))).
 
